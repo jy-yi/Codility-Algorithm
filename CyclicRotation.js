@@ -1,7 +1,7 @@
 /**
  * Rotate an array to the right by a given number of steps.
- * @param {*} A
- * @param {*} K
+ * @param {*} A : 순환할 배열
+ * @param {*} K : 순환 횟수
  */
 function solution(A, K) {
     let arr = A.length == 0 ? [] : A; // empty array check
